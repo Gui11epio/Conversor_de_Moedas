@@ -40,7 +40,7 @@ public class Main {
                 case "1":
                     try{
                         ConversorMoeda conversorMoeda = new ConversorMoeda();
-                        conversorMoeda.busca("https://v6.exchangerate-api.com/v6/aa99808fda5a92b7b9a9971d/pair/USD/ARS");
+                        conversorMoeda.busca("https://v6.exchangerate-api.com/v6/SUA-CHAVE-API/pair/USD/ARS");
                         break;
                     }catch (Exception e){
                         System.out.println(e.getMessage());
@@ -49,7 +49,7 @@ public class Main {
                 case "2":
                     try{
                         ConversorMoeda conversorMoeda = new ConversorMoeda();
-                        conversorMoeda.busca("https://v6.exchangerate-api.com/v6/aa99808fda5a92b7b9a9971d/pair/ARS/USD");
+                        conversorMoeda.busca("https://v6.exchangerate-api.com/v6/SUA-CHAVE-API/pair/ARS/USD");
                         break;
                     }catch (Exception e){
                         System.out.println(e.getMessage());
@@ -58,7 +58,7 @@ public class Main {
                 case "3":
                     try{
                         ConversorMoeda conversorMoeda = new ConversorMoeda();
-                        conversorMoeda.busca("https://v6.exchangerate-api.com/v6/aa99808fda5a92b7b9a9971d/pair/USD/BRL");
+                        conversorMoeda.busca("https://v6.exchangerate-api.com/v6/SUA-CHAVE-API/pair/USD/BRL");
                         break;
                     }catch (Exception e){
                         System.out.println(e.getMessage());
@@ -68,7 +68,7 @@ public class Main {
                 case "4":
                     try{
                         ConversorMoeda conversorMoeda = new ConversorMoeda();
-                        conversorMoeda.busca("https://v6.exchangerate-api.com/v6/aa99808fda5a92b7b9a9971d/pair/BRL/USD");
+                        conversorMoeda.busca("https://v6.exchangerate-api.com/v6/SUA-CHAVE-API/pair/BRL/USD");
                         break;
                     }catch (Exception e){
                         System.out.println(e.getMessage());
@@ -77,7 +77,7 @@ public class Main {
                 case "5":
                     try{
                         ConversorMoeda conversorMoeda = new ConversorMoeda();
-                        conversorMoeda.busca("https://v6.exchangerate-api.com/v6/aa99808fda5a92b7b9a9971d/pair/COP/ARS");
+                        conversorMoeda.busca("https://v6.exchangerate-api.com/v6/SUA-CHAVE-API/pair/COP/ARS");
                         break;
                     }catch (Exception e){
                         System.out.println(e.getMessage());
@@ -87,7 +87,7 @@ public class Main {
                 case "6":
                     try{
                         ConversorMoeda conversorMoeda = new ConversorMoeda();
-                        conversorMoeda.busca("https://v6.exchangerate-api.com/v6/aa99808fda5a92b7b9a9971d/pair/USD/COP");
+                        conversorMoeda.busca("https://v6.exchangerate-api.com/v6/SUA-CHAVE-API/pair/USD/COP");
                         break;
 
                     }catch (Exception e){
